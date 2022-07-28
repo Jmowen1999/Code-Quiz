@@ -2,29 +2,29 @@ var body = document.body;
 var currentQuestionIndex = -1;
 var quizData = [
     {
-        question: "Commonly used data types DO NOT include",
-        answers: ["Strings", "Booleans", "Alerts", "Numbers"],
+        question: "A ___ allows users to move from one webpage to another.",
+        answers: ["HTML","video","hyperlink","browser"],
         correctAns: 2
     },
     {
-        question: "The condition in an if/else statement is enclosed within _____.",
-        answers: ["Quotes", "Curly brackets", "Parentheses", "Square brackets"],
+        question: "Items in a(n) ___ list are preceded by numbers.",
+        answers: ["unorderd","bulleted","ordered","stacked"],
         correctAns: 2
     },
     {
-        question: "Arrays in JavaScript can be used to store:",
-        answers: ["Numbers and strings", "Other arrays", "Booleans", "All of the above"],
+        question: "Which of the following tags is used to insert a blank line?",
+        answers: ["<h1>","<hr>","<p>","<br>"],
         correctAns: 3
     },
     {
-        question: "String values must be enclosed within ____ when being assigned to variables.",
-        answers: ["Commas", "Curly brackets", "Quotes", "Parentheses"],
-        correctAns: 2
+        question: "True or False: A web browser translates text-based HTML into a graphical web page.",
+        answers: ["True","False"],
+        correctAns: 0
     },
     {
-        question: "A very useful tool used during development and debugging for printing content to the debugger is:",
-        answers: ["JavaScript", "Terminal/bash", "For loops", "console.log"],
-        correctAns: 3
+        question: "True or False: HTML is a coding language used to create web pages.",
+        answers: ["True","False"],
+        correctAns: 1
     }
 ];
 var time = 60;
