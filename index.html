@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    
+</head>
+<body>
+    <div class="row">
+        <div class="timer">Timer: <span id="time">0</span></div>
+    </div>
+    <div class="wrapper">
+        <div id="quiz-start" class="start">
+            <h1>The code quiz challenge!</h1>
+            <p>Try and complete the coding questions with the the set time limit. Any wrong questions will
+                remove 5 seconds off of your remaining time.</p>
+                <button class="btn" id="startBtn">Start Quiz</button>
+        </div>
+        <div class="question" id="questionContainer"></div>
+    </div>
+    <div class="finished">
+        <div>
+            <h1>All Finished!!</h1>
+            <p class="finalscore"></p>
+            <form>
+                <input type="text" id="initials" name="initials" placeholder="Your initials">
+                <label for="initials">Enter initials:</label>
+                <button class="btn" id="submitBtn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>

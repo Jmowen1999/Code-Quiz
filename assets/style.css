@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper, .done {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 100px 250px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(53, 56, 218);
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hideQuestion {
+    display: none;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol li {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(112, 41, 99);
+    width: 250px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+ol li:active {
+background-color: rgb(226, 43, 43);
+}
+
+.done {
+    display: none;
+}
